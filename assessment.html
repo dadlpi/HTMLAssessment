@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assessment Web Page</title>
+</head>
+<body>
+
+	<h2>TEXT</h2>
+
+	<p><strong>Junk Paragraph 1</strong>, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique, urna id aliquam pretium, lectus est pretium eros, vestibulum venenatis diam purus et nisi. Aenean mattis ipsum ac nisi dignissim, ullamcorper pulvinar purus iaculis. Cras accumsan nibh augue, vitae tristique erat aliquet eget. Curabitur vitae ipsum eget ipsum mattis condimentum. Proin at lacus vel lorem elementum tincidunt. Vestibulum felis ligula, hendrerit a dolor eu, luctus pretium est. Aenean tempor metus eget hendrerit luctus. Mauris ac aliquet lectus.</p>
+
+	<blockquote>
+		<p><em><strong>Junk Paragraph 2</strong>, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique, urna id aliquam pretium, lectus est pretium eros, vestibulum venenatis diam purus et nisi. Aenean mattis ipsum ac nisi dignissim, ullamcorper pulvinar purus iaculis. Cras accumsan nibh augue, vitae tristique erat aliquet eget. Curabitur vitae ipsum eget ipsum mattis condimentum. Proin at lacus vel lorem elementum tincidunt. Vestibulum felis ligula, hendrerit a dolor eu, luctus pretium est. Aenean tempor metus eget hendrerit luctus. Mauris ac aliquet lectus.</em></p>
+	</blockquote>
+
+	<p><strong>Junk Paragraph 3</strong>, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique, urna id aliquam pretium, lectus est pretium eros, vestibulum venenatis diam purus et nisi. Aenean mattis ipsum ac nisi dignissim, ullamcorper pulvinar purus iaculis. Cras accumsan nibh augue, vitae tristique erat aliquet eget. Curabitur vitae ipsum eget ipsum mattis condimentum. Proin at lacus vel lorem elementum tincidunt. Vestibulum felis ligula, hendrerit a dolor eu, luctus pretium est. Aenean tempor metus eget hendrerit luctus. Mauris ac aliquet lectus.</p>
+<br>
+<br>
+
+<h2>TABLE</h2>
+
+   <table>
+ <thead>
+ 	<tr>
+ 		<td></td>
+ 		<td></td>
+ 		<td colspan="2">Scores by Quarter</td>
+ 	</tr>
+  <tr> <!-- Row 1 -->
+  	
+	    <th rowspan="2">Team Name</th>
+	    <th colspan="2">First Half</th>
+	    <th colspan="2">Second Half</th>
+  </tr>
+
+  <tr>
+	    <th>Q1</th>
+	    <th>Q2</th>
+	    <th>Q3</th>
+	    <th>Q4</th>
+	    <th>Final</th>
+  </tr>
+ </thead>
+  <tr> <!-- Row 2 -->
+    <td>Denver</td>
+    <td>7</td>
+    <td>3</td>
+    <td>0</td>
+    <td>7</td>
+    <td>17</td>
+    
+  </tr>
+  <tr> <!-- Row 3 -->
+    <td>Chicago</td>
+    <td>0</td>
+    <td>6</td>
+    <td>3</td>
+    <td>6</td>
+    <td>15</td>
+  </tr>
+  <tfoot>
+  <tr> <!-- Row 4 -->
+  	
+      <th>Total</th>
+      <th>7</th>
+      <th>9</th>
+      <th>3</th>
+      <th>13</th>
+      <th>32</th>
+    
+    </tr>
+  </tfoot>
+</table>
+
+<br>
+<br>
+
+<h2>LIST</h2>
+
+<ul>
+  <li><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NE" width="60" height="60"><a href="https://www.patriots.com/" target="_blank"><br>New England Patriots</a></li>
+    <ul>
+    	<li>Coach</li>
+    	  <ol>
+    	  	<li>Bill Belichick</li>
+    	  	<li>Joe Judge</li>
+    	  </ol>
+    	<li>QB</li>
+    	  <ol>
+    	  	<li>Malik Cunningham</li>
+    	  	<li>Will Grier</li>
+    	  </ol>
+    	<li>Running Back</li>
+    	  <ol>
+    	  	<li>Rhamondre Stevenson</li>
+    	  	<li>Kevin Harris</li>
+    	  </ol>
+    	
+    </ul>
+
+    <br>
+
+  <li><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DEN" width="60" height="60"><a href="https://www.denverbroncos.com/" target="_blank"><br>Denver Broncos</a></li>
+     <ul>
+    	<li>Coach</li>
+    	  <ol>
+    	  	<li>Sean Payton</li>
+    	  	<li>Paul Kelly</li>
+    	  </ol>
+    	<li>QB</li>
+    	  <ol>
+    	  	<li>Russell Wilson</li>
+    	  	<li>Ben DiNucci</li>
+    	  </ol>
+    	<li>Running Back</li>
+    	  <ol>
+    	  	<li>Dwayne Washington</li>
+    	  	<li>Javonte Williams</li>
+    	  </ol>
+    	
+    </ul>
+</ul>
+
+<br>
+<br>
+
+<h2>FORM</h2>
+<form>
+  <label>First Name</label>
+  <input value="Bob" type="text"/>
+  <lable>Last Name</lable>
+  <input value="Dobbs" type="text"/>
+
+<section class="favorite_sport">
+         <label for="favorite_sport">Favorite Sport</label>
+          <select name="favorite_sport" id="favorite_sport">
+            <option value="football">Football</option>
+            <option value="soccer">Soccer</option>
+            <option value="baseball">Baseball</option>
+            <option value="basketball">Basketball</option>
+          </select>
+</section>
+
+  <section class="engaged_in_sport">
+  	<span>I have engaged in this sport in the following capacity (select all that apply):</span>
+  		<input type="checkbox" name="engagement_capacity" id="played">
+  		<label for="played">Played</label>
+  		
+  		<input type="checkbox" name="engagement_capacity" id="attended">
+  		<label for="attended">Attended</label>
+
+  		<input type="checkbox" name="engagement_capacity" id="coached">	
+  		<label for="coached">Coached</label>
+
+  		<input type="checkbox" name="engagement_capacity" id="bet">
+  		<label for="bet">Bet</label>
+  	<br>
+  	<span> on this sport.</span>
+  </section> 
+  	
+  <section class="level_of_sport">
+          <span>For this sport I prefer the following level:</span>
+          <br>
+          <input type="radio" name="level_of_sport" id="high_school" value="high school">
+          <label for="high_school">High School</label>
+
+          <input type="radio" name="level_of_sport" id="Ameteur" value="ameteur">
+          <label for="Ameteur">Ameteur</label>
+
+          <input type="radio" name="level_of_sport" id="College" value="college">
+          <label for="College">College</label>
+
+          <input type="radio" name="level_of_sport" id="Professional" value="professional">
+          <label for="Professional">Professional</label>
+        </section>
+
+<br>
+
+		<section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+
+</form>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
